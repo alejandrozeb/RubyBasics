@@ -25,6 +25,17 @@ no paralelismo (con cruby un core a la vez)
 no tiene una compania grande
 ha venido decreciendo en popularidad
 
+***instlacion//////
+comandos
+irb _> RUBY_VERSION
+para ver la version de ruby 
+
+exit -> para salir del modo 
+
+ruby -v en cmd o powersheell
+
+https://rubyinstaller.org/downloads/
+instalador
 
 
 

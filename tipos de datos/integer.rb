@@ -27,3 +27,17 @@ nombre = "pepe" =begin interpoalcion de variables =end
 saludo5 = "Hola #{nombre}" =begin utiliza la variable nombre en el string, ademas de cualquier pedazo de codigo como +-*/ =end
 
 saludo6 = "Hola #{4+5}" =begin cada vez que queramos interpolacion debemos usar comillas dobles o %Q() si no se desactiva esta opcion =end
+
+
+"pepe".class
+"pepe".method
+"pepe".upcase =begin lleva todo a mayusculas =end
+"pepe".downcase =begin lleva todo a minuscula =end
+"pepe".length =begin devuelve el tamaño del string =end
+"pepe".swapcase =begin cambia las mayusculas por minuscula y al reves =end
+
+"pepe".include? "g" =begin verifica si incluye algun caracter =end
+"  pepe  ".strip =begin  elimina espacios =end
+"pepe".empty? =begin si esta vacio  =end
+"Simon Soriano".gsub("Simon","Santiago") =begin reemplaza todos los elemntos del primer input con el segundo =end
+

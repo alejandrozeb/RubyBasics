@@ -41,3 +41,11 @@ saludo6 = "Hola #{4+5}" =begin cada vez que queramos interpolacion debemos usar 
 "pepe".empty? =begin si esta vacio  =end
 "Simon Soriano".gsub("Simon","Santiago") =begin reemplaza todos los elemntos del primer input con el segundo =end
 
+
+nombre="simon"
+nombre + "santiago" + "sa"
+nombre * 2 =begin simonsimon output =end
+nombre * 3
+nombre.gsub!("simon", pepe) =begin modifica la variable, no crea una copia =end
+
+
